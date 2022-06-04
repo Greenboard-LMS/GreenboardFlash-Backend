@@ -199,3 +199,11 @@
     token: "693e7505b853994c24ff8433284887337014f196"
 }
 ```
+
+#### Making authenticated Requests
+```javascript
+// You always need to add this header to requests:
+{
+	Authorization: "Token <TOKEN>"
+}, 
+```
