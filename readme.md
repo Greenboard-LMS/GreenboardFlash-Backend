@@ -8,16 +8,16 @@
 // api.greenboard.com/flash/cardsets/
 // method: GET
 ```
-```json
+```javascript
 [
 	{
-		'id': 1,
-		'owner': {
-			'id': 1, 
-			'username': 'greenboard.user'
+		id: 1,
+		owner: {
+			id: 1, 
+			username 'greenboard.user'
 		},
-		'title': 'Cardset Title',
-		'flashcard_count': 10, 
+		title: 'Cardset Title',
+		flashcard_count: 10, 
 	}, 
 	{
 		id: 2,
@@ -36,7 +36,7 @@
 // api.greenboard.com/flash/cardsets/1/
 // method: GET
 ```
-```json
+```
 {
 	id: 1,
 	owner: {
@@ -53,7 +53,7 @@
 // api.greenboard.com/flash/cardsets/
 // method: POST
 ```
-```json
+```
 // Expected structure of request body
 {
 	title: 'Cardset Title',
@@ -76,7 +76,7 @@
 // api.greenboard.com/flash/cardsets/1/update/
 // method: POST
 ```
-```json
+```
 // Expected structure of request body
 {
 	title: 'Cardset Title (updated)',
@@ -100,7 +100,7 @@
 // api.greenboard.com/flash/cardsets/1/cards
 // method: GET
 ```
-```json
+```
 [
 	{
 		id: 1,
@@ -129,7 +129,7 @@
 // api.greenboard.com/flash/cardsets/1/cards/1
 // method: GET
 ```
-```json
+```
 {
 	id: 1,
 	question: 'How high is Mount Everest?',
@@ -143,7 +143,7 @@
 // api.greenboard.com/flash/cardsets/1/cards/
 // method: POST
 ```
-```json
+```
 // Expected structure of request body
 {
 	question: 'Is this my first self-made question?',
@@ -164,7 +164,7 @@
 // api.greenboard.com/flash/cardsets/1/cards/1/update/
 // method: POST
 ```
-```json
+```
 // Expected structure of request body (no field will probably be required, so you could just send the question over for example)
 {
 	question: 'Is this my first self-made question (updated)?',
