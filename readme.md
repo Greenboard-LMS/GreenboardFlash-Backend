@@ -178,3 +178,24 @@
 	cardset: 1,
 }
 ```
+
+--- 
+
+### Users/Authentication
+#### Generating/Receiving a Token for User Credentials
+```javascript
+// api.greenboard.com/users/token/
+// method: POST
+```
+```json
+// Expected request body:
+{
+	username: 'USERNAME',
+	password: 'PASSWORD' 
+}, 
+
+// Response (if successful): 
+{
+    token: "693e7505b853994c24ff8433284887337014f196"
+}
+```
