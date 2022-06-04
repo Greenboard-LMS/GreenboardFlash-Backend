@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Internal
+    'flashcards',
+
     # Third party
     'corsheaders',
     'rest_framework',
