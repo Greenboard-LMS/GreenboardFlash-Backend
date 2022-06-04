@@ -196,7 +196,7 @@
 
 // Response (if successful): 
 {
-    token: "693e7505b853994c24ff8433284887337014f196"
+    token: "123456789abcdefgh"
 }
 ```
 
