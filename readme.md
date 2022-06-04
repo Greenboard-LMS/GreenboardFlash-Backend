@@ -11,13 +11,13 @@
 ```json
 [
 	{
-		id: 1,
-		owner: {
-			id: 1, 
-			username 'greenboard.user'
+		'id': 1,
+		'owner': {
+			'id': 1, 
+			'username': 'greenboard.user'
 		},
-		title: 'Cardset Title',
-		flashcard_count: 10, 
+		'title': 'Cardset Title',
+		'flashcard_count': 10, 
 	}, 
 	{
 		id: 2,
