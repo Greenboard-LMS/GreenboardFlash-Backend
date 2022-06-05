@@ -43,3 +43,14 @@ class Flashcard(models.Model):
 
     def __str__(self):
         return self.question
+
+
+class Studyplan(models.Model):
+    title = models.CharField(max_length=120)
+    owner = models.ForeignKey(User, on_delete=models.CASCADE)
+    deadline = models.DateField()
+    cardsets_to_study = models.ManyToManyField(
+        Cardset, related_name="study_plans")
+
+    def __str__(self):
+        return self.title

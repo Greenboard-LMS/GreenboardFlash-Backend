@@ -8,4 +8,5 @@ urlpatterns = [
          FlashcardListCreateView.as_view()),
     path('cardsets/<int:cardset_id>/cards/<int:flashcard_id>/',
          FlashcardDetailView.as_view()),
+
 ]
