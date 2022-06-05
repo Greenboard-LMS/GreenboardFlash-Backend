@@ -2,13 +2,13 @@ from pathlib import Path
 import dj_database_url
 from dotenv import load_dotenv, find_dotenv
 
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_TRUSTED_ORIGINS = [
     'greenboardflash-webapp.netlify.app'
 ]
 # TODO: Set allowed origins
-CORS_ALLOWED_ORIGINS = ['greenboardflash-webapp.netlify.app']
+# CORS_ALLOWED_ORIGINS = ['greenboardflash-webapp.netlify.app']
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
